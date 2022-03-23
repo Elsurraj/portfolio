@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #eeeeee;
+}
+
+.clock{
+    width: 540px;
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 14.5rem auto;
+    background: #4db2ec;
+}
+
+.clock div{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    font-size: 50px;
+    background: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.clock span{
+    color: #ffffff;
+    padding: 5px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
